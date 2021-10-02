@@ -1,0 +1,12 @@
+//Code Snippet 1
+//This will display "Paula, Smith, 1234 Main Street, St. Louis, MO, 12345"
+
+//Code Snippet 2
+//This will add the string "hashbrowns" to the back of the frozen array
+// and will display "broccoli, ice cream, hashbrowns"
+
+//Code Snippet 3
+//This will add a string "Zero" to the end of the movieLibrary array
+//will also replace the string at index 1, which is "E.T." with "Beetlejuice"
+// and will display "Bambi, Beetlejuice, Toy Story, Zero"
+

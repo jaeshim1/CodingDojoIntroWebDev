@@ -1,0 +1,24 @@
+h1{
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(78, 8, 78);
+    color: white;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+h3{
+    background-color: lightskyblue;
+    text-align: right;
+    text-decoration: underline;
+    padding-right: 15px;
+    
+
+}

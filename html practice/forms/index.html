@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="first_name"><br><br>
+    <input type="number" name="age"><br><br>
+
+    <input type="password" name="password"><br><br>
+
+    <input type="color" name="text_color"><br><br>
+    <input type="radio" name="font" value="bold" id="bold">
+    <label for="bold"><strong>Bold</strong></label><br><br>
+
+    <input type="checkbox" name="accept" id="accept">
+    <label for="accept">I agree</label><br><br>
+
+    <textarea name="comment"  cols="20" rows="3"></textarea><br><br>
+
+    <select name="snack">
+        <option>Almonds</option>
+        <option>Cheese</option>
+        <option>Pita and Hummus</option>
+        <option>Apple</option>
+    </select><br><br><br>
+
+
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" placeholder="Your name...">
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="Your email...">
+        </div>
+        <div>
+            <input type="checkbox" name="offers" id="offers" checked>
+            <label for="offers">I'd like to receive email offers!</label>
+        </div>
+        <input type="submit" value="Sign Up!">
+
+
+    </form>
+    
+</body>
+</html>

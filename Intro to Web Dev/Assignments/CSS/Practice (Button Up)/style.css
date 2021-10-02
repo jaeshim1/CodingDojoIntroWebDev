@@ -1,0 +1,25 @@
+  .search{ 
+    color:rgb(62, 143, 139);
+    border-color: rgb(62, 143, 139);
+    border-radius: 25px;
+    width: 100px;
+    border: 2px solid rgb(62, 143, 139);
+    
+}
+
+.plus{
+    color: white;
+    background-color: rgb(62, 143, 139);
+    border-radius: 50%;
+    border: none;
+
+}
+
+.create{
+    color: white;
+    background-color: rgb(65, 65, 192);
+    box-shadow:darkmagenta;
+    border: 2px solid black;
+    line-height: 15px;
+} 
+
