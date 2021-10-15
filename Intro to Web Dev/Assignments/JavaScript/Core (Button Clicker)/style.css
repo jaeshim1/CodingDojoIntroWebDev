@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    display:flex;
+    /* justify-content:center; */
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: lightgrey;
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-around;
+    align-items: center; /*aligns contents inside header div in the center */
+    margin-bottom: 25px;
+}
+
+.search-box{
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+}
+
+.login{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(6, 86, 136);
+    color: white;
+}
+
+.main-content{
+    display: flex;
+    /* flex-direction:column; */
+    /* justify-content:center; */
+    /* flex-wrap: wrap; */
+    /* display:inline-block; */
+    /* margin: 25px; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.left{
+    /* display:flex; */
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    
+    
+    /* display:inline-block;  */
+    /* align-content: center; */
+}
+
+.left-top{
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    justify-items:center;
+    display:flex;
+    flex-direction: column;
+  }
+
+.left-bottom{
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    justify-items:center;
+    display:flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.right{
+     border: 1px solid black;
+    height: 180px;
+    width: 280px; 
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.btn-add{
+    background-color: rgb(41, 148, 41);
+    color: black;
+    width: 85%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow:black;
+}
+
+.btn{
+    background-color:yellow ;
+    width: 80px;
+    height: 35px;
+    margin-left:15px;
+    box-shadow:black;
+
+}
+
+ul{
+    list-style: none;
+    align-self: center;
+}
+
+p{
+    margin-left: 35px;
+    /* align-self: flex-end; */
+}
+
+#ninja{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+alert("test");
+
+function changeText(){
+    var login-btn = document.querySelector('#login-btn');
+    login-btn.textContent="Logged out"
+}
+
+// function message(){
+//     document.getElementById("btn-like");
+//     alert("Ninja was liked");
+// }
+
+// function hide(btn-add){
+//     document.getElementById("add-btn");
+//     btn-add.remove();
+// }

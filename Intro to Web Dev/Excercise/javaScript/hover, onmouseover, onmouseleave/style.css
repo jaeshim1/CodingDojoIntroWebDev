@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.row{
+    display:flex;
+    justify-content:center;
+}
+
+.note{
+    height:50px;
+    width:50px;
+    padding:10px;
+    margin:10px;
+    border: 1px solid #000;
+    background-color: lightyellow;
+}
+
+.shadow{
+    box-shadow: 5px 5px 5px #888;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+

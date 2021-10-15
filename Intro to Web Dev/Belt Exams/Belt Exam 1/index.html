@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Dessert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div class="nav">
+        <h1 class="logo1">Just</h1>
+        <h1 class="logo2">Dessert</h1>
+        
+        <ul class="nav-links">
+            <li><button class="btn1" onclick="hide(this)">Join</button></li>
+            <li><button class="btn2">Login</button></li>
+        </ul>
+    </div>
+    
+    <div class="search">
+        <input type="text" id="inputValue" placeholder="SEARCH" class="search-box">
+        <input type="button" value="GO" onclick="userInput()" class="search-button">
+        
+    </div>
+    
+    <!-- <img src="imgs/heart.png" id="incrementHeart" onclick="incrementHeart()" class="hearts" alt="hearts"> -->
+    <div class="hearts">
+        <img src="imgs/heart.png" id="heart" onclick="incrementCount()"   alt="hearts">
+        
+    </div>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

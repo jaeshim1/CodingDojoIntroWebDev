@@ -1,0 +1,40 @@
+.main-content{
+    border: 1px solid black;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* align-items: center; */
+
+
+}
+
+.top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+
+.bottom{
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+    /* align-items: center; */
+}
+
+p{
+    margin-right: -20px;
+    
+}
+
+.btn{
+    background-color:palegoldenrod;
+    box-shadow: 5px 5px 5px #555;
+    width: 55px;
+    height: 30px;
+}

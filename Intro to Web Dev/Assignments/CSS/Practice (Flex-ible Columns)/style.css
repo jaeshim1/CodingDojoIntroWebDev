@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    color: white;
+}
+
+.col{
+    background-color: cadetblue;
+    flex:1;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.col-2{
+    background-color: cadetblue;
+    flex:2;
+    padding: 10px;
+    margin: 10px;
+}
+
+.col-3{
+    background-color: cadetblue;
+    flex:3;
+    padding: 10px;
+    margin: 10px;
+}
+
